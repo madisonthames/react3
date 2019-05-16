@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family:'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.navigationBar {
+  display: flex;
+  align-items: center;
+  background-color: #34A5DA;
+  height: 12vh;
+  margin-bottom: 100px;
 }
+
+.navigationBarText {
+  padding-left: 5vw;
+  font-size: 20px;
+}
+
+.mainInfo {
+  position: relative;
+  background-color: #EBEBEB;
+  height: 45vh;
+  width: 75%;
+  margin: auto;
+  font-size: 10px;
+}
+
+.usersInfo {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.id {
+  position: absolute;
+  right: 10px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.id h1 {
+  margin: 0px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.usersInfo h1 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 3px solid #34A5DA;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.favoriteMovies {
+  margin-top: 20px;
+}
+
+ol {
+  margin: 0px;
+}
+
+li {
+  font-size: 15px;
+}
+
+.buttonsRow {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #EBEBEB;
+  background-color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  font-size: 30px;
+  color: #EBEBEB;
+  background-color: black;
+  border: none;
+}
+
+.middleButtons {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 7px 15px 7px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #EBEBEB;
+  border: none;
+  background-color: #34A5DA;
+}
+
+
+
+
+
